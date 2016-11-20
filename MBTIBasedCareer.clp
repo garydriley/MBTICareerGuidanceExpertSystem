@@ -23,6 +23,10 @@
    (printout t "2 - interact with a few, known to you" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*E* (+ ?*E* 1))
@@ -41,6 +45,10 @@
    (printout t "2 - speculative than realistic" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*S* (+ ?*S* 1))
@@ -59,6 +67,10 @@
    (printout t "2 - emotions" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*T* (+ ?*T* 1))
@@ -77,6 +89,10 @@
    (printout t "2 - somewhat impulsively" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*J* (+ ?*J* 1))
@@ -95,6 +111,10 @@
    (printout t "2 - wait to be approached" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*E* (+ ?*E* 1))
@@ -113,6 +133,10 @@
    (printout t "2 - what is possible" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*S* (+ ?*S* 1))
@@ -131,6 +155,10 @@
    (printout t "2 - circumstances than laws" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*T* (+ ?*T* 1))
@@ -149,6 +177,10 @@
    (printout t "2 - whenever you feel like working" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*J* (+ ?*J* 1))
@@ -167,6 +199,10 @@
    (printout t "2 - tax your reserves" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*E* (+ ?*E* 1))
@@ -185,6 +221,10 @@
    (printout t "2 - figurative meanings" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*S* (+ ?*S* 1))
@@ -203,6 +243,10 @@
    (printout t "2 - strength of compassion" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*T* (+ ?*T* 1))
@@ -221,6 +265,10 @@
    (printout t "2 - unplanned / unexpected events" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*J* (+ ?*J* 1))
@@ -239,6 +287,10 @@
    (printout t "2 - few friends with more lengthy contact" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*E* (+ ?*E* 1))
@@ -257,6 +309,10 @@
    (printout t "2 - a vivid imagination" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*S* (+ ?*S* 1))
@@ -275,6 +331,10 @@
    (printout t "2 - to arrive at an agreement on an issue" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*T* (+ ?*T* 1))
@@ -293,6 +353,10 @@
    (printout t "2 - just let things happen" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*J* (+ ?*J* 1))
@@ -311,6 +375,10 @@
    (printout t "2 - somewhat reserved" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*E* (+ ?*E* 1))
@@ -329,6 +397,10 @@
    (printout t "2 - gut feeling / guess" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*S* (+ ?*S* 1))
@@ -347,6 +419,10 @@
    (printout t "2 - your heart" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*T* (+ ?*T* 1))
@@ -365,6 +441,10 @@
    (printout t "2 - done on a casual basis" crlf)
    (printout t "Enter your response (1 or 2) : " crlf)
    (bind ?resp (read))
+   (while (not (or (eq ?resp 1) (eq ?resp 2)) ) do
+		(printout t "Incorrect response. Enter your response (1 or 2) : " crlf)
+		(bind ?resp (read))
+   )
    (if (= ?resp 1)
       then
       (bind ?*J* (+ ?*J* 1))
@@ -607,6 +687,10 @@
    =>
    (printout t "Language(s): ")
    (bind ?response (read))
+   (while (not (or (eq ?response 0) (eq ?response 1) (eq ?response 2) (eq ?response 3) (eq ?response 4) (eq ?response 5)) ) do
+		(printout t "Incorrect response. Enter your response (0-5) : ")
+		(bind ?response (read))
+   )
    (if (> ?response 3)
       then (assert (langScore high))
       )
@@ -617,6 +701,10 @@
    =>
    (printout t "Mathematics: ")
    (bind ?response (read))
+   (while (not (or (eq ?response 0) (eq ?response 1) (eq ?response 2) (eq ?response 3) (eq ?response 4) (eq ?response 5)) ) do
+		(printout t "Incorrect response. Enter your response (0-5) : ")
+		(bind ?response (read))
+   )
    (if (> ?response 3)
       then (assert (mathScore high))
       )
@@ -627,6 +715,10 @@
    =>
    (printout t "Physics: ")
    (bind ?response (read))
+   (while (not (or (eq ?response 0) (eq ?response 1) (eq ?response 2) (eq ?response 3) (eq ?response 4) (eq ?response 5)) ) do
+		(printout t "Incorrect response. Enter your response (0-5) : ")
+		(bind ?response (read))
+   )
    (if (> ?response 3)
       then (assert (phyScore high))
       )
@@ -637,6 +729,10 @@
    =>
    (printout t "Chemistry: ")
    (bind ?response (read))
+   (while (not (or (eq ?response 0) (eq ?response 1) (eq ?response 2) (eq ?response 3) (eq ?response 4) (eq ?response 5)) ) do
+		(printout t "Incorrect response. Enter your response (0-5) : ")
+		(bind ?response (read))
+   )
    (if (> ?response 3)
       then (assert (chemScore high))
       )
@@ -647,6 +743,10 @@
    =>
    (printout t "Biology: ")
    (bind ?response (read))
+   (while (not (or (eq ?response 0) (eq ?response 1) (eq ?response 2) (eq ?response 3) (eq ?response 4) (eq ?response 5)) ) do
+		(printout t "Incorrect response. Enter your response (0-5) : ")
+		(bind ?response (read))
+   )
    (if (> ?response 3)
       then (assert (bioScore high))
       )
@@ -657,6 +757,10 @@
    =>
    (printout t "Computer Science / Programming: ")
    (bind ?response (read))
+   (while (not (or (eq ?response 0) (eq ?response 1) (eq ?response 2) (eq ?response 3) (eq ?response 4) (eq ?response 5)) ) do
+		(printout t "Incorrect response. Enter your response (0-5) : ")
+		(bind ?response (read))
+   )
    (if (> ?response 3)
       then (assert (csScore high))
       )
@@ -667,6 +771,10 @@
    =>
    (printout t "Social Sciences: ")
    (bind ?response (read))
+   (while (not (or (eq ?response 0) (eq ?response 1) (eq ?response 2) (eq ?response 3) (eq ?response 4) (eq ?response 5)) ) do
+		(printout t "Incorrect response. Enter your response (0-5) : ")
+		(bind ?response (read))
+   )
    (if (> ?response 3)
       then (assert (socialScore high))
       )
@@ -677,6 +785,10 @@
    =>
    (printout t "Painting / Sketching: ")
    (bind ?response (read))
+   (while (not (or (eq ?response 0) (eq ?response 1) (eq ?response 2) (eq ?response 3) (eq ?response 4) (eq ?response 5)) ) do
+		(printout t "Incorrect response. Enter your response (0-5) : ")
+		(bind ?response (read))
+   )
    (if (> ?response 3)
       then (assert (artScore high))
       )
@@ -687,6 +799,10 @@
    =>
    (printout t "Acting / Dancing: ")
    (bind ?response (read))
+   (while (not (or (eq ?response 0) (eq ?response 1) (eq ?response 2) (eq ?response 3) (eq ?response 4) (eq ?response 5)) ) do
+		(printout t "Incorrect response. Enter your response (0-5) : ")
+		(bind ?response (read))
+   )
    (if (> ?response 3)
       then (assert (actdanceScore high))
       )
@@ -697,6 +813,10 @@
    =>
    (printout t "Music: ")
    (bind ?response (read))
+   (while (not (or (eq ?response 0) (eq ?response 1) (eq ?response 2) (eq ?response 3) (eq ?response 4) (eq ?response 5)) ) do
+		(printout t "Incorrect response. Enter your response (0-5) : ")
+		(bind ?response (read))
+   )
    (if (> ?response 3)
       then (assert (musicScore high))
       )
