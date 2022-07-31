@@ -1,3 +1,14 @@
+;;; CLIPS Website
+;;; clipsrules.net
+
+;;; CLIPS on SourceForge
+;;; sourceforge.net/projects/clipsrules/
+
+;;; Adventures in Rule-Based Programming: A CLIPS Tutorial
+;;; clipsrules.net/airbp
+
+;;; Original MBTIBasedCareer Source Code
+;;; github.com/sulyabtv/MBTICareerGuidanceExpertSystem
 
 (defmodule MAIN (export ?ALL))
 
